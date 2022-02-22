@@ -1,5 +1,9 @@
 body {
     background-color: powderblue;
+    background-image: url('example_img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   h1 {
     color: blue;
@@ -19,4 +23,26 @@ body {
     font-size: 160%;
     border: 2px solid powderblue;
    
+  }
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
   }
